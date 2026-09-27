@@ -28,10 +28,10 @@ The project analyzes product sales data and provides information such as total s
 ## Project Structure
 
 ```text
-Sales-Analysis-PDBC/
+sales-analysis-python-mysql-using-pdbc/
 │
 ├── salesAnalysisProject.py
-├── database_setup.sql
+├── databaseSetup.sql
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
@@ -41,7 +41,7 @@ Sales-Analysis-PDBC/
 ## Database Setup
 
 1. Open MySQL Workbench.
-2. Open `database_setup.sql`.
+2. Open `databaseSetup.sql`.
 3. Execute the SQL script.
 
 This will create the `products` database, required tables, and sample product data.
@@ -51,13 +51,13 @@ This will create the `products` database, required tables, and sample product da
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Pratikshadixit25/sales-analysis-python-mysql-using-pdbc/
 ```
 
 Move into the project directory:
 
 ```bash
-cd Sales-Analysis-PDBC
+cd sales-analysis-python-mysql-using-pdbc
 ```
 
 Install the required Python packages:
